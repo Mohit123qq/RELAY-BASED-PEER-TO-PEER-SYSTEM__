@@ -147,14 +147,14 @@
 > After the peers are loaded and relay clients run and make the
 > connections between the server and the peer nodes.
 >
-> **Peer Node :**
+> **Peer Node :**\
 > ![](IMAGES/media/image3.png)
 >
-> **Relay Server :**
+> **Relay Server :**\
 > ![](IMAGES/media/image4.png)
 >
-> **Peer Client :**
-> ![](IMAGES/media/image4.png)
+> **Peer Client :**\
+> ![](IMAGES/media/image5.png)
 >
 > Any Further request of files or data is sent to peers and upon the
 > result of search the peer_client gets the information.
