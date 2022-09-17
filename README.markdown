@@ -1,12 +1,8 @@
-**Report: Socket Programming to Implement**
+**Socket Programming to Implement**
 
 **Relay Based Peer to Peer System**
 
-Members :
 
-Mohit Kumar -214101029 \| Mohit Pal - 214101030
-
-Murtaza Saifee - 214101031
 
 > **Introduction :**
 >
@@ -16,8 +12,7 @@ Murtaza Saifee - 214101031
 >
 > This System works in three phase shown below:
 >
-> ![](IMAGES/media/image1.png){width="6.551388888888889in"
-> height="2.0208333333333335in"}
+> ![](IMAGES/media/image1.png)
 >
 > **Phase 1 :** The Peer_Nodes (peer 1/2/3 as shown in Figure 1) will
 > connect to the Relay_Server using the TCP port already known to them.
@@ -114,8 +109,7 @@ Murtaza Saifee - 214101031
 >
 > Have the terminals run the following :
 
-![](IMAGES/media/image2.png){width="17.38888888888889in"
-height="9.776476377952756in"}
+![](IMAGES/media/image2.png)
 
 > **Terminal 1 :** Relay Server\
 > **Terminal 2 :** Peer(s) \[add on the additional peers on next
@@ -130,7 +124,7 @@ height="9.776476377952756in"}
 > **Execution :**
 >
 > **Terminal 1 :** /server \<server_port\>\
-> **Terminal 3 :** /\<peer_no\> \<serveraddress\> \<server_port\>
+> **Terminal 3 :** /\<peer_no\> \<serveraddress\> \<server_port\>\
 > **Terminal 2 :** /client \<serveraddress\> \<serverport\>
 >
 > The requested file should be with a peer node because The client will
@@ -143,10 +137,9 @@ height="9.776476377952756in"}
 >
 > The server first boots up and and listens for connections.
 
-![](IMAGES/media/image3.png){width="13.395833333333334in"
-height="7.531478565179353in"}![](IMAGES/media/image4.png){width="5.156944444444444in"
-height="3.184225721784777in"}![](IMAGES/media/image5.png){width="4.770833333333333in"
-height="1.8617891513560805in"}
+
+
+
 
 > Now each of the peer nodes starts up waiting for the relay server to
 > make the connection with the server.
@@ -155,18 +148,20 @@ height="1.8617891513560805in"}
 > connections between the server and the peer nodes.
 >
 > **Peer Node :**
+> ![](IMAGES/media/image3.png)
 >
 > **Relay Server :**
+> ![](IMAGES/media/image4.png)
 >
 > **Peer Client :**
+> ![](IMAGES/media/image4.png)
 >
 > Any Further request of files or data is sent to peers and upon the
 > result of search the peer_client gets the information.
 >
 > The following is how the peer_client reacts to information.
 
-![](IMAGES/media/image6.png){width="5.833333333333333in"
-height="3.1972222222222224in"}
+![](IMAGES/media/image6.png)
 
 > The above figure shows the connection of the peer did return the
 > positive search and then the contents of the file are piped to the
@@ -175,9 +170,4 @@ height="3.1972222222222224in"}
 > The content of the file is displayed and for the current scenario it
 > shuts down after the request has been handled.
 >
-> **Conclusion :**
 >
-> The proposed model when accompanied with some alike model can help in
-> firstly identifying the code-mix part and thus resulting in better
-> translation of user intent. The model will effectively deal with the
-> multilingual inputs and preserve the intent if implied effectively.
